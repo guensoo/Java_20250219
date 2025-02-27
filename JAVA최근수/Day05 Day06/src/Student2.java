@@ -1,4 +1,4 @@
-public class Student {
+public class Student2 {
     // 속성은 변수로 선언
     // 멤버 변수
     int studentID; // 학번
@@ -23,5 +23,15 @@ public class Student {
     public void showStudentInfo() {
         System.out.println(studentName + "," + address);
         // 이름, 주소 출력
+    }
+
+    public static void main(String[] args) { // main()함수 : 프로그램 실행의 시작점
+        Student2 studentAhn = new Student2(); // Student2 클래스의 객체를 생성
+        studentAhn.studentName = "안연수";
+        // 객체의 studentName 필드에 값을 할당
+        System.out.println(studentAhn.studentName);
+        // studentName에 직접 접근해서 값을 출력
+        System.out.println(studentAhn.getStudentName());
+        // getStudentName() 메서드를 통해 studentName 출력
     }
 }

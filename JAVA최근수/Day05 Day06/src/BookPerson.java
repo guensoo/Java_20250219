@@ -4,7 +4,7 @@ public class BookPerson {
     Book book; // BookPerson 객체가 소유하는 책
 
     // 기능 : 책을 읽는 동작
-    public voidreadBook() {
+    public void readBook() {
         book.read();
         // Book 객체의 read() 메서드 호출
     }
