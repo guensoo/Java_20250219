@@ -11,4 +11,8 @@ public class Fruit {
     public void setFruitName(String fruitName) {
         this.fruitName = fruitName;
     }
+
+    public Fruit getself() {
+        return this;
+    }
 }
