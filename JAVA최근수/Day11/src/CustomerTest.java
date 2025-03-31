@@ -7,6 +7,12 @@ public class CustomerTest {
         customer.buy();
         customer.sell();
 
+        System.out.println();
+        customer.order();
+        buyer.order();
+        seller.order();
+        System.out.println();
+
         buyer.buy(); // buyer는 Buy 인터페이스의 메서드만 호출 가능
         
         seller.sell(); // seller는 Sell 인터페이스의 메서드만 호출 가능
